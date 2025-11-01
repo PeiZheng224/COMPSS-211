@@ -891,5 +891,3 @@ print(f"\nTopic distribution differs significantly across periods: p = {p_value:
 1. Description of your temporal pattern/question
 2. Sample of your code and data structure
 3. Specific visualization or analysis issue
-
-Good luck tracking discourse over time! 📈

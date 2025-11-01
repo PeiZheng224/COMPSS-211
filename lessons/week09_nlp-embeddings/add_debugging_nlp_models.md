@@ -2,7 +2,7 @@
 
 ## Introduction
 
-NLP models fail in predictable ways. This additional guide helps you diagnose and fix common problems. Use this when your model isn't working as expected!
+NLP models fail, but they do so in predictable ways. This additional guide helps you diagnose and fix common problems. Use this when your model isn't working as expected!
 
 ---
 
@@ -54,18 +54,18 @@ def quick_data_check(df, text_column):
     # 4. Check for common issues
     issues = []
     if df[text_column].isna().sum() > 0:
-        issues.append("❌ Contains NaN values")
+        issues.append("Contains NaN values")
     if (df['_text_length'] < 10).sum() > len(df) * 0.1:
-        issues.append("⚠️  Many very short texts (< 10 chars)")
+        issues.append("Many very short texts (< 10 chars)")
     if (df['_text_length'] > 5000).sum() > 0:
-        issues.append("⚠️  Some very long texts (> 5000 chars)")
+        issues.append("Some very long texts (> 5000 chars)")
 
     if issues:
         print(f"\nPotential Issues Found:")
         for issue in issues:
             print(f"  {issue}")
     else:
-        print(f"\n✅ No obvious data issues found")
+        print(f"\nNo obvious data issues found")
 
     df.drop('_text_length', axis=1, inplace=True)
     print("="*60)
@@ -726,5 +726,4 @@ When asking for help (in office hours, online, etc.), provide:
 
 ---
 
-**Last Updated:** Week 8, 2025
 **Need more help?** Come to office hours with specific examples!

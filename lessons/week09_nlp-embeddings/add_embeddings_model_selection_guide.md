@@ -2,7 +2,9 @@
 
 ## Overview
 
-This additional guide helps you choose the right NLP method for your computational social science project. We cover the progression from basic frequency counts to advanced neural models, helping you understand when to use each approach.
+This additional guide is based on office hour questions raised so far. Hopefully it can help you choose the right NLP method for your computational social science project. 
+
+We cover the progression from basic frequency counts to advanced neural models, helping you understand when to use each approach.
 
 ---
 
@@ -43,7 +45,7 @@ Think of NLP methods as a ladder - start at the bottom and climb up only as need
 
 ---
 
-## Quick Decision Flow
+## Decision Flow
 
 ### START HERE: What's your research question?
 
