@@ -1,7 +1,5 @@
 # Additional: Temporal Analysis Guide - Tracking Text Data Over Time
 
-## Overview
-
 Many computational social science projects involve tracking how discourse changes over time. This additional guide shows you how to analyze temporal patterns in your text data using the NLP methods from Week 8 and 9.
 
 ---

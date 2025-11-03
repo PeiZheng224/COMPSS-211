@@ -1,7 +1,5 @@
 # Additional: Debugging NLP Models - Troubleshooting Guide
 
-## Introduction
-
 NLP models fail, but they do so in predictable ways. This additional guide helps you diagnose and fix common problems. Use this when your model isn't working as expected!
 
 ---

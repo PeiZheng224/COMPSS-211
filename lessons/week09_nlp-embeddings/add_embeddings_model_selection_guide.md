@@ -1,7 +1,5 @@
 # Additional: Embeddings & Topic Modeling: Which Method for My Project?
 
-## Overview
-
 This additional guide is based on office hour questions raised so far. Hopefully it can help you choose the right NLP method for your computational social science project. 
 
 We cover the progression from basic frequency counts to advanced neural models, helping you understand when to use each approach.

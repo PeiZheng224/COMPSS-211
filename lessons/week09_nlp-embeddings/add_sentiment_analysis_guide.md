@@ -1,7 +1,5 @@
 # Additional: Sentiment Analysis Guide - Choosing and Implementing the Right Approach
 
-## Overview
-
 This additional guide helps you choose between different sentiment analysis approaches and implement them effectively for your project. We'll cover three main approaches: dictionary-based (VADER), pre-trained transformer models (HuggingFace), and custom embedding-based approaches.
 
 ---
