@@ -4,3 +4,4 @@
 .virtual_documents/
 .github/
 .env
+wandb/
